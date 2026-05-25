@@ -35,7 +35,11 @@ test("slecting option in dropdown based on Text", async({page})=>{
 
     //await expect(page.locator("//select[@id='loc_code']")).toBeVisible();
 
-     await page.waitForTimeout(3000)
+     await page.waitForTimeout(3000);
+    
+
+     console.log("successful executed dropdown Handling test case.");
+
 
      
 
